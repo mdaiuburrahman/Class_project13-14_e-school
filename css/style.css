@@ -1,0 +1,48 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;500;700&family=Roboto:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&family=Playfair+Display:wght@400;700;900&family=Roboto&family=Ubuntu:ital,wght@0,300;1,700&display=swap');
+
+/*common*/
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+/*header start*/
+header{
+    background-color: #e0fbe0;
+    padding: 15px 0;
+}
+/* .c_nav{
+
+}
+.logo{
+
+} */
+.menu ul li a{
+    color: #000000 !important;
+    padding: 0 24px !important;
+}
+.menu ul li a:hover{
+    color: #408878 !important;
+}
+.btn_c{
+    background: #4be19e;
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.btn_sign{
+    margin-left: 10px;
+    padding: 12px 28px;
+}
+.btn_c:hover{
+    background-color: #6df0d4;
+}
+.btn_c:active{
+    background-color: #FD511A !important;
+    color: white  !important;
+}
