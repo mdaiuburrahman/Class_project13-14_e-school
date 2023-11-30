@@ -14,12 +14,6 @@ header{
     background-color: #e0fbe0;
     padding: 15px 0;
 }
-/* .c_nav{
-
-}
-.logo{
-
-} */
 .menu ul li a{
     color: #000000 !important;
     padding: 0 24px !important;
@@ -43,6 +37,141 @@ header{
     background-color: #6df0d4;
 }
 .btn_c:active{
-    background-color: #FD511A !important;
+    background-color: #6df0d4 !important;
     color: white  !important;
 }
+/* banner start  */
+.banner{
+  background-color: #e0fbe0;
+  padding-bottom: 65px;
+}
+.bp1{
+  color: #FD511A;
+}
+.bh1{
+  margin: 10px 0 20px;
+  padding: 0 25px 0 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 70px;
+}
+.bh1 span{
+  color: #21B573;
+}
+.bp2{
+  line-height: 36px;
+}
+.b_btn{
+  margin-top: 15px;
+  padding: 12px 36px;
+}
+/* banner end  */
+/* feature start  */
+.p_c{
+  padding-bottom: 100px;
+}
+.s_feature{
+  margin: 40px 0 0;
+  padding: 55px 0 50px;
+  background-color:#e0fbe0; 
+  border-radius: 10px;
+  transition: .33s linear;
+}
+.s_feature:hover{
+  background: #FFF;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.s_img{
+  width: 80px;
+  height: 83px;
+}
+.s_h2{
+  margin: 20px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  color:#000000;
+}
+/* feature end */
+/* courses start  */
+.c_h1{
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+.sc_courses{
+  margin: 60px 0  0;
+  padding: 24px 20px 30px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.sc_img img{
+  border-radius: 11px;
+}
+.sc_h2{
+  margin: 20px 0 5px;
+  font-size: 24px;
+  font-weight: 500;
+  color:#000000 ;
+}
+.btn_sc{ 
+  margin: 20px 0 35px;
+  padding: 8px 28px;
+}
+.sc_left ul li span{
+  font-weight: 500;
+}
+.sc_right ul li span,.sc_right ul li span{
+  font-weight: 400;
+}
+/* courses end  */
+/* testimony start  */
+.testimony{
+  padding-bottom: 100px;
+}
+.t_item{
+  margin-top: 60px;
+}
+.t_img img {
+  width: 100%;
+}
+/* testimony end  */
+/* footer_top start  */
+.footer_top{
+  padding: 55px 0 55px;
+  background: #282531;
+}
+.ft_details{
+  padding-right: 120px;
+}
+.ft_details p{
+  color:#FFFFFF;
+  line-height: 30px;
+}
+.ft_links h2{
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 30px;
+}.ft_links ul li a{
+margin-bottom: 8px;
+display: block;
+color: white;
+text-decoration: none;}
+/* footer_top end  */
+/* footer start  */
+footer{
+  padding: 20px 0 30px;
+  background: #282531;
+}
+footer p{
+  color: white;
+  line-height: 30px;
+}
+  
+footer p a{
+  color: white;
+  text-decoration: none;
+}/* footer end  */
+  
